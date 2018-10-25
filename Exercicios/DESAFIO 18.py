@@ -1,4 +1,4 @@
-from math import sin, cos, tan
+from math import sin, cos, tan, radians
 
 angulo = float(input('Digite o valor do ângulo: '))
-print('Seno: {}\nCosseno: {}\nTangente: {}'.format(sin(angulo), cos(angulo), tan(angulo)))
+print('Seno: {:.2f}\nCosseno: {:.2f}\nTangente: {:.2f}'.format(sin(radians(angulo)), cos(radians(angulo)), tan(radians(angulo))))
