@@ -1,5 +1,2 @@
-nome = input('Digite seu nome: ')
-
-dividido = nome.split()
-
-print('Primeiro: {}\nUltimo: {}'.format(dividido[0], dividido[len(dividido) - 1]))
+nome = input('Digite seu nome: ').split().strip()
+print('Primeiro: {}\nUltimo: {}'.format(nome[0], nome[-1]))
